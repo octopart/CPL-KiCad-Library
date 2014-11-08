@@ -1,0 +1,158 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:CPL
+LIBS:common_parts_library-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "6 nov 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R_CPL R?
+U 1 1 545BAF64
+P 3750 3750
+F 0 "R?" H 3750 3650 50  0000 C CNN
+F 1 "R_CPL" H 3750 3850 50  0000 C CNN
+F 2 "" H 3700 3750 60  0000 C CNN
+F 3 "" H 3700 3750 60  0000 C CNN
+	1    3750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_CPL C?
+U 1 1 545BAF73
+P 4750 3750
+F 0 "C?" H 4750 3600 50  0000 C CNN
+F 1 "C_CPL" H 4750 3900 50  0000 C CNN
+F 2 "" H 4700 3750 60  0000 C CNN
+F 3 "" H 4700 3750 60  0000 C CNN
+	1    4750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_POLARIZED_CPL C?
+U 1 1 545BAF82
+P 5750 3750
+F 0 "C?" H 5750 3600 50  0000 C CNN
+F 1 "C_POLARIZED_CPL" H 5750 3900 50  0000 C CNN
+F 2 "" H 5700 3750 60  0000 C CNN
+F 3 "" H 5700 3750 60  0000 C CNN
+	1    5750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_CPL L?
+U 1 1 545BC62E
+P 6750 3750
+F 0 "L?" H 6750 3700 50  0000 C CNN
+F 1 "L_CPL" H 6750 3900 50  0000 C CNN
+F 2 "~" H 6750 3750 60  0000 C CNN
+F 3 "~" H 6750 3750 60  0000 C CNN
+	1    6750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_CPL D?
+U 1 1 545BC7C7
+P 4750 4250
+F 0 "D?" H 4750 4100 50  0000 C CNN
+F 1 "D_CPL" H 4750 4400 50  0000 C CNN
+F 2 "~" H 4820 4250 60  0000 C CNN
+F 3 "~" H 4820 4250 60  0000 C CNN
+	1    4750 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED_CPL D?
+U 1 1 545BCB8C
+P 5750 4250
+F 0 "D?" H 5750 4100 50  0000 C CNN
+F 1 "LED_CPL" H 5750 4400 50  0000 C CNN
+F 2 "~" H 5820 4250 60  0000 C CNN
+F 3 "~" H 5820 4250 60  0000 C CNN
+	1    5750 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN_CPL Q?
+U 1 1 545BD02C
+P 6750 4250
+F 0 "Q?" H 6750 4000 50  0000 C CNN
+F 1 "NPN_CPL" H 6750 4500 50  0000 C CNN
+F 2 "" H 6750 4250 60  0000 C CNN
+F 3 "" H 6750 4250 60  0000 C CNN
+	1    6750 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L PNP_CPL Q?
+U 1 1 545BD15E
+P 3750 4750
+F 0 "Q?" H 3750 4500 50  0000 C CNN
+F 1 "PNP_CPL" H 3750 5000 50  0000 C CNN
+F 2 "" H 3750 4750 60  0000 C CNN
+F 3 "" H 3750 4750 60  0000 C CNN
+	1    3750 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L FERRITE_CPL L?
+U 1 1 545BD909
+P 3750 4250
+F 0 "L?" H 3750 4200 50  0000 C CNN
+F 1 "FERRITE_CPL" H 3750 4450 50  0000 C CNN
+F 2 "~" H 3750 4250 60  0000 C CNN
+F 3 "~" H 3750 4250 60  0000 C CNN
+	1    3750 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L PNP_DUAL_CPL Q?
+U 1 1 545BD938
+P 4750 4750
+F 0 "Q?" H 4750 4500 50  0000 C CNN
+F 1 "PNP_DUAL_CPL" H 4750 5000 50  0000 C CNN
+F 2 "~" H 4750 4750 60  0000 C CNN
+F 3 "~" H 4750 4750 60  0000 C CNN
+	1    4750 4750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

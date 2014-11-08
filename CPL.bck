@@ -1,0 +1,53 @@
+EESchema-DOCLIB  Version 2.0  Date: 11/6/2014 1:27:24 PM
+#
+$CMP C_CPL
+D Capacitor
+K CPL Capacitor
+$ENDCMP
+#
+$CMP C_POLARIZED_CPL
+D Polarized Capacitor
+K CPL Polarized Capacitor
+$ENDCMP
+#
+$CMP D_CPL
+D Diode
+K CPL Diode
+$ENDCMP
+#
+$CMP FERRITE_CPL
+D Ferrite Inductor
+K CPL Ferrite Inductor
+$ENDCMP
+#
+$CMP L_CPL
+D Inductor
+K CPL Inductor
+$ENDCMP
+#
+$CMP LED_CPL
+D LED
+K CPL LED
+$ENDCMP
+#
+$CMP NPN_CPL
+D NPN Transistor
+K CPL NPN Transistor
+$ENDCMP
+#
+$CMP PNP_CPL
+D PNP Transistor
+K CPL PNP Transistor
+$ENDCMP
+#
+$CMP PNP_DUAL_CPL
+D PNP Transistor
+K CPL PNP Transistor
+$ENDCMP
+#
+$CMP R_CPL
+D Resistor
+K CPL Resistor
+$ENDCMP
+#
+#End Doc Library
