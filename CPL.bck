@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 11/6/2014 1:27:24 PM
+EESchema-DOCLIB  Version 2.0  Date: 11/9/2014 8:47:41 AM
 #
 $CMP C_CPL
 D Capacitor
@@ -13,6 +13,26 @@ $ENDCMP
 $CMP D_CPL
 D Diode
 K CPL Diode
+$ENDCMP
+#
+$CMP D_Pinswap_CPL
+D Diode
+K CPL Diode
+$ENDCMP
+#
+$CMP D_Schottky_BAS70-04_CPL
+D Schottky Barrier Diode
+K CPL Schottky Barrier Diode
+$ENDCMP
+#
+$CMP D_Schottky_BAT54S_CPL
+D Schottky Barrier Diode
+K CPL Schottky Barrier Diode
+$ENDCMP
+#
+$CMP D_Schottky_CPL
+D Schottky Diode
+K CPL Schottky Diode
 $ENDCMP
 #
 $CMP FERRITE_CPL
@@ -30,9 +50,29 @@ D LED
 K CPL LED
 $ENDCMP
 #
+$CMP LED_RGB_WS2812_CPL
+D CPL RGB LED WS2812
+K CPL RGB LED WS2812
+$ENDCMP
+#
+$CMP N_Channel_FET_CPL
+D N-Channel FET
+K CPL N Channel FET
+$ENDCMP
+#
+$CMP N_Channel_Power_MOSFET_CPL
+D N-Channel Power MOSFET
+K CPL N Channel Power MOSFET
+$ENDCMP
+#
 $CMP NPN_CPL
 D NPN Transistor
 K CPL NPN Transistor
+$ENDCMP
+#
+$CMP P_Channel_FET_CPL
+D P-Channel FET
+K CPL P Channel FET
 $ENDCMP
 #
 $CMP PNP_CPL
@@ -41,8 +81,18 @@ K CPL PNP Transistor
 $ENDCMP
 #
 $CMP PNP_DUAL_CPL
-D PNP Transistor
-K CPL PNP Transistor
+D Dual PNP Transistor
+K CPL Dual PNP Transistor
+$ENDCMP
+#
+$CMP PNP_Dual_Pinswap_CPL
+D Dual PNP Transistor Pinswap
+K CPL PNP Transistor Dual Pinswap
+$ENDCMP
+#
+$CMP Potentiometer_CPL
+D Potentiometer
+K CPL Potentiometer
 $ENDCMP
 #
 $CMP R_CPL
